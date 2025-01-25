@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import Login from "./components/Auth/Login";
 
 function App() {
   return (
-    <div><h1 className="text-3xl font-bold underline text-white">
-    Hello world!
-  </h1></div>
-  )
+    <>
+    <Login/>
+    </>
+  );
 }
 
-export default App
+export default App;
